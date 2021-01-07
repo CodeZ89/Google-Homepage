@@ -1,6 +1,30 @@
 #title {
     text-align: center;
     color: green;
-    font-size: 30px;
+    font-size: 100px;
+    margin-top: 200px;
+    margin-bottom: auto;
+    padding-bottom: 40px;
+}
+
+.search-bar {
+    text-align: left;
+    color: blue;
+    font-size: 40px;
+    font-style: helvetica;
+    padding: 10px;
+}
+
+#searchbar {
+    text-align: center;
+   
+}
+
+#header {
+    text-align: right;
+    padding: 5px;
+    
+}
+
 
 }
