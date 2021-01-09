@@ -3,21 +3,26 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial;
+
 }
 
-header {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px;
+    font-size: 14px;
+    margin: 0px;
 }
+
 .top_left {
     list-style: none;
 }
 
 .top_left li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 .top_right {
@@ -26,13 +31,28 @@ header {
 
 .top_right li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
+    align-self: center;
 }
+
+.sign_in {
+    display: block;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 140, 255);
+    padding: 10px 10px;
+    border: 15px;
+    outline: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 5px;
+}
+
 
 #title {
     text-align: center;
-    font-size: 100px;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: auto;
     padding-bottom: 40px;
 }
@@ -40,11 +60,11 @@ header {
 .search-bar {
     text-align: left;
     font-size: 30px;
-    font-style: impact;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 60px;
     border-color: gainsboro; 
     border-style: solid; 
+    
 }
 
 #searchbar {
@@ -53,13 +73,21 @@ header {
 
 a:link {
     text-decoration: none;
+}
 
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
 }
 
 .image1 {
-    height: 30px;
-    width: 30px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
     color: gray;
+    justify-content: center;
 }
 
 .image2 {
@@ -67,40 +95,59 @@ a:link {
     margin-left: auto;
     margin-right: auto;
 }
+.buttons {
+    display: flex;
+    justify-content: center;
+}
 
 .button1 {
     text-align: center;
-    display: inline-block;
-    padding: 15px 32px;
+    display: inline-flex;
+    padding: 10px 20px;
     border: 0px;
     outline: 0px solid transparent;
     background-color: rgb(241, 241, 241);
     font-size: 14px;
     text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 2px;
+    border-radius: 5px;
     
 }
 
 
 .button2 {
     text-align: center;
-    display: inline-block;
-    padding: 15px 32px;
+    display: inline-flex;
+    padding: 10px 20px;
     border: none;
     background-color: rgb(241, 241, 241);
     font-size: 14px;
     text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 2px;
+    border-radius: 5px;
 }
 
 footer {
     display: flex;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px;
     background-color: rgb(240, 239, 239);
+    color: green;
     height: 10px;
     position: absolute;
     bottom: 0;
     width: 100%;
     justify-content: space-between;
+    font-size: 14px;
+    margin: 0px;
+    border-radius: 5px;
+  
 
 }
 .bottom_left {
