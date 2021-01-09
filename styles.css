@@ -1,13 +1,36 @@
-#footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:20px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.top_left {
+    list-style: none;
+}
+
+.top_left li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.top_right {
+   list-style: none;
+}
+
+.top_right li {
+    display: inline-block;
+    padding: 0px 20px;
 }
 
 #title {
     text-align: center;
-    color: green;
     font-size: 100px;
     margin-top: 200px;
     margin-bottom: auto;
@@ -26,7 +49,6 @@
 
 #searchbar {
     text-align: center;
-    font-style: impact;
 }
 
 a:link {
@@ -40,20 +62,71 @@ a:link {
     color: gray;
 }
 
-.container1 {
-    font-size: 20px;
-    width: 100%;
-    background: white;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    justify-content: auto;
-
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.container2 {
-    display: grid;
-    width: 100%;
-    background:gainsboro;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
+.button1 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 32px;
+    border: 0px;
+    outline: 0px solid transparent;
+    background-color: rgb(241, 241, 241);
+    font-size: 14px;
+    text-decoration: none;
+    
 }
 
+
+.button2 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 32px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(240, 239, 239);
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.bottom_left {
+    list-style: none;
+}
+
+.bottom_left li {
+    display: inline-block;
+    padding: 0px 20px;
+    align-content: left;
+}
+
+.bottom_right {
+   list-style: none;
+}
+
+.bottom_right li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.bottom_center {
+    list-style: none;
+ }
+ 
+ .bottom_center li {
+     display: inline-block;
+     padding: 0px 20px;
+ }
